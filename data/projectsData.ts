@@ -1,9 +1,7 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Elevate Your Customer Conversion Rates: 10 Proven Strategies with AI Assistants',
+    description: `In the dynamic world of online business, mastering customer conversion rates is the key to thriving in a competitive landscape. The ability to transform potential leads into loyal customers can make or break your venture.`,
     imgSrc: '/static/images/google.png',
     href: 'https://www.google.com',
   },
