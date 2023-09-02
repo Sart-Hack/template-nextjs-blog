@@ -87,7 +87,7 @@ module.exports = (phase, { defaultConfig }) => {
 
       return config
     },
-    basePath: '/blog', // Add this line to include basePath in the configuration
+    basePath: '/blog',
   })
 }
 
