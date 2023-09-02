@@ -87,7 +87,7 @@ module.exports = (phase, { defaultConfig }) => {
 
       return config
     },
-    basePath: '/',
+    basePath: '',
   })
 }
 
