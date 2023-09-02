@@ -57,7 +57,7 @@ const securityHeaders = [
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
-module.exports = () => {
+module.exports = (phase, { defaultConfig }) => {
   const plugins = [withContentlayer, withBundleAnalyzer]
   return plugins.reduce((acc, next) => next(acc), {
     reactStrictMode: true,
@@ -87,13 +87,7 @@ module.exports = () => {
 
       return config
     },
+    basePath: '/blog', // Add this line to include basePath in the configuration
   })
 }
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: '/blog',
-}
-
-module.exports = nextConfig
 
